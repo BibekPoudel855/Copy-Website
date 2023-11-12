@@ -1,11 +1,8 @@
-// let apikey = "d19db930781145a69e1d13dcbbb97cbe";
-let apikey = "0b8a7a4c25234a74a7bb45311cd9b190";
+let apikey = "d19db930781145a69e1d13dcbbb97cbe";
 const url = "https://newsapi.org/v2/everything?q=";
 
 
 window.addEventListener("load", () => fetchnews("ICC"));
-
-
 // to fetch or to get articlee or news
 async function fetchnews(query) {
   // const res=await
@@ -52,8 +49,6 @@ function fillDataInCard(cardClone, article) {
 // Categ of nerws
 // let news_search=prompt('Search News');
 // window.addEventListener('load', ()=> fetchnews(news_search));
-
-
 
 // Input
 // adding function of search button  and input
